@@ -1,0 +1,4 @@
+function value (num){
+console.log(num%2 "Even")
+}
+value ()
