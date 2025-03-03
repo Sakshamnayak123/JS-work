@@ -15,3 +15,13 @@
 
 let d =()=>{return}
 document.write (d)
+
+function fun(){
+    // alert("calling")
+
+    let name = document.getElementById('head')
+    name.innerHTML = "Cybrom"
+
+    
+   
+}
