@@ -1,0 +1,1 @@
+setInterval( ()=> {document.write("HElllo")},2000)
