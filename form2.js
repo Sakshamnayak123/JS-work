@@ -16,9 +16,10 @@ function validata(){
         return false
     }
 
-    else  if(email==""){
+    
+    }
+    else  if(!(email)){
         alert("Enter your Email")
         document.querySelector('#email').focus()
         return false
-    }
 }
