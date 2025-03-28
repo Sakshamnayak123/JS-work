@@ -55,3 +55,6 @@ btn3.addEventListener('mouseenter',()=>{alert("my")})
 
 let btn4 = document.querySelector('#btn4')
 btn4.addEventListener('mouseleave',()=>{alert("ayush")})
+
+let img = document.querySelector('#img')
+img.img.src="f.jpg"
