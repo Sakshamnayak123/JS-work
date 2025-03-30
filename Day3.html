@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+// 'use strict'
+// // ------------------New keywords come 2015 es6------------------//
+// // 1. LET
+// // 2. CONST
+
+// var x = 10;
+// var x = 20;
+// console.log(x);
+
+// let y = 15;
+// // let y = 30;  cant redeclare
+// y = 30;         //but we can reassign
+// console.log(y);
+
+// const z = 50;
+// //z = 60;   //cant reassign
+// // const z = 40;       // cant redeclare
+
+// console.log(z);
+
+
+
+<!-- //--------------------Function-----------------------// -->
+ //Function Decleration
+function add(a,b){
+    return a+b;
+}
+console.log(add(5,3));
+
+//------------------------
+function subtract(x,y){
+    return x-y;
+}
+console.log(subtract(15,5));
+
+
+
+//Function Expression
+const multiply = function(a,b){
+    return a*b;
+};
+console.log(multiply(4,2));
+
+//-------------------------
+const Multiply = function(x,y){
+    return x*y;
+};
+console.log(multiply(45,45));
+
+
+//Arrow function
+const multiplyArrow=(a,b)=>a*b;
+console.log(multiplyArrow(4,8));
+
+//-----------------------
+const Multiplyarrow=(x,y)=>x*y;
+console.log(Multiplyarrow(8,5));
+
+
+
+
+
+// ----------------------We study 4 type of function  in JS----------------------------//
+//No Argument NO Retutn
+function print(){
+    console.log("Hello");
+}
+print();
+
+
+//----------------------
+// Argument No Return
+function sum(a,b){
+    console.log(a*b);
+}
+sum(4,5);
+
+    </script>
+</body>
+</html>
+
+
+
