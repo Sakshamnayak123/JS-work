@@ -1,0 +1,13 @@
+{
+    "hotel":[{
+        "name":"sasham",
+        "age":25,
+        "contact":"1234567890",
+        "city":"Bhopal"
+    },{
+        "name":"sasham",
+        "age":25,
+        "contact":"1234567890",
+        "city":"Bhopal"
+    }]
+}
