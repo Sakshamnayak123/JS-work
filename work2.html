@@ -1,0 +1,105 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+    <style>
+        #Box{
+            border: 2px solid rgb(8, 8, 8);
+            height: 350px;
+            width: 350px;
+            background-image: url(warer\ ride.jpg);
+           
+            
+        }
+    </style>
+</head>
+<body>
+
+    <div id="Box"></div> <br>
+
+
+    <button onclick="img1()"><img src="f.jpg" alt=""></button>
+    <button onmouseleave="img2()"><img src="g.jpg" alt=""></button>
+    <button onmouseenter="img3()"><img src="ujjain.jpg" alt=""></button>
+
+
+
+    <script>
+        let img1=()=>{
+    let box1=document.querySelector("#Box")
+    box1.style.backgroundImage='url(./f.jpg)'
+}
+
+let img2=()=>{
+    let box2=document.querySelector("#Box")
+    box2.style.backgroundImage='url(./g.jpg)'
+}
+
+let img3=()=>{
+    let box3=document.querySelector("#Box")
+    box3.style.backgroundImage='url(./ujjain.jpg)'
+}
+    </script>
+</body>
+</html> -->
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+        #div{
+            height: 500px;
+            width: 500px;
+            border: 2px solid palevioletred;
+            background-image: url(ujjain.jpg);               
+        }
+    </style>
+</head>
+<body>
+    <div id="div"></div> <br>
+
+    <button onmouseenter="img1()"><img src="f.jpg" alt="" height="230px" width="230px"></button>
+    <button onmouseenter="img2()"><img src="g.jpg" alt="" height="230px" width="230px"></button>
+    <button onmouseenter="img3()"><img src="wp.jpg" alt="" height="230px" width="230px"></button>
+    <button onmouseenter="img4()"><img src="s.jpg" alt="" height="230px" width="230px"></button>
+
+
+    <script>
+        let img1=()=>{
+        let img11=document.querySelector("#div")
+        img11.style.backgroundImage='url(./f.jpg)'
+
+    }
+    let img2=()=>{
+        let img12=document.querySelector("#div")
+        img12.style.backgroundImage='url(./g.jpg)'
+
+    }
+    let img3=()=>{
+        let img13=document.querySelector("#div")
+        img13.style.backgroundImage='url(./wp.jpg)'
+
+    }
+
+    let img4=()=>{
+        let img14=document.querySelector("#div")
+        img14.style.backgroundImage='url(./s.jpg)'
+
+    }
+    </script>
+</body>
+</html>
